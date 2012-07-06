@@ -27,6 +27,6 @@
     }
   }
   
-  echo "Deleted ".count($output)." keys\n";
+  echo "Deleted ".count($allkeys)." keys\n";
   
 ?>
