@@ -20,7 +20,7 @@ This tool exports a group of single key/value pairs to stdout. The output format
   # export all keys starting with ABC to stdout
   ./redis_export.php "ABC*"  
   
-  # export keys with Lookup in the key, to a file
+  # export keys with ABC anywhere in the key, to a file
   ./redis_export.php "*ABC* > text.txt
   
   # export all keys to a file
